@@ -15,7 +15,7 @@ def generate_password(invalid_char="", option=3, length=12):
                     [3] lower and upper case letters, numbers, and special characters
                     (Default is 3)
     :param length: output length of the password (Default is 12)
-    :return: password as string object 
+    :return: password as string object
     """
     alphabet = string.ascii_lowercase
     if option == 0:
